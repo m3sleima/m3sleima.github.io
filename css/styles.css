@@ -1,5 +1,5 @@
 @font-face {
-	font-family: 'Abel';
+	font-family: 'Work Sans', sans-serif;
 	src: url('Abel.ttf');
 }
 
@@ -23,21 +23,35 @@ body {
   margin: 0;
   padding-bottom: 0rem;
   min-height: 100%;
-  background-color: #e8e7de;
+  /*background-color: #e8e7de;*/
 }
 
 /* Text Basic Styling */
 
-h1, h2, h3, p {
-    font-family: 'Abel';
+h1, p {
+    font-family: 'Rouge Script', cursive;
+    font-size: 45px;
+    padding-top: 30px;
+    color: #262020;
+}
+
+h2, p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 23px;
+    color: #262020;
+}
+
+h3, p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
     color: #262020;
 }
 
 /* Header Navigation */
 
 .navigation {
-    font-family: 'Abel';
-    background-color: #6ac5c7;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #fff;
     margin-bottom: 0em;
     -webkit-font-smoothing: antialiased;
     height: 3.1em;
@@ -50,18 +64,18 @@ h1, h2, h3, p {
 }
 
 .navigation.open {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;
     height: 14em;
 }
 
 
 .custom-menu-3 {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;
     text-align: right;
 }
 
 .custom-toggle {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;
     width: 34px;
     height: 34px;
     display: block;
@@ -75,7 +89,7 @@ h1, h2, h3, p {
 
 /* Lines into X Menu Element */
 .custom-toggle .bar {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;
     background-color: #ffd464;
     display: block;
     width: 20px;
@@ -91,7 +105,7 @@ h1, h2, h3, p {
 }
 
 .custom-toggle .bar:first-child {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;
     -webkit-transform: translateY(-6px);
     -moz-transform: translateY(-6px);
     -ms-transform: translateY(-6px);
@@ -99,7 +113,7 @@ h1, h2, h3, p {
 }
 
 .custom-toggle.x .bar {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
@@ -107,7 +121,7 @@ h1, h2, h3, p {
 }
 
 .custom-toggle.x .bar:first-child {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -ms-transform: rotate(-45deg);
@@ -117,65 +131,65 @@ h1, h2, h3, p {
 @media (max-width: 47.999em) {
 
     .custom-menu-3 {
-        font-family: 'Abel';
+        font-family: 'Work Sans', sans-serif;
         text-align: left;
     }
 
     .custom-toggle {
-        font-family: 'Abel';
+        font-family: 'Work Sans', sans-serif;
         display: block;
     }
 
 }
 
 .pure-menu-active>.pure-menu-link, .pure-menu-link:hover, .pure-menu-link:focus {
-    font-family: 'Abel';
-    background-color: #ffd464;
+    font-family: 'Work Sans', sans-serif;
+    /*color: #777;*/
 }
 
 .pure-menu-link {
-    font-family: 'Abel';
-    color: #fff;    
+    font-family: 'Work Sans', sans-serif;
+    color: #111;
 }
 
 .brand {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;
 max-width: 250px;
 }
 
 .pure-menu-link {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;
     padding: 1em 1em;
 }
 
 .brand-name {
-    font-family: 'Abel';
-    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    color: #111;
     padding: 1em 1em;
 }
 
 /* Button Styling */
 .pure-button {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;
     display: block; /* Remove this to make button not stretch entire screen */
-    background-color: #6ac5c7;
+    background-color: #d6d4d4;
     color: #ffffff !important;
 }
 
 .pure-button:hover{
-    font-family: 'Abel';
-    background-color: #434343;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #6ac5c7;
 }
 
 .button-large {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;
             font-size: 125%;
         }
 
 /* Body */
 
 .img-padding {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
@@ -184,7 +198,7 @@ max-width: 250px;
 *
 
 .img-padding:hover {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;;
    /* IE 8 */
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
 
@@ -213,13 +227,14 @@ max-width: 250px;
 
 
 .portfolio a {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;;
     color: #262020;
+    font-size: 16px;
     text-decoration: none;
 }
 
 .portfolio {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;;
     background-color: #fff;
     max-width: 1000px;
     margin: auto;
@@ -228,56 +243,56 @@ max-width: 250px;
 /* About Section */
 
 .about {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;
     background-color: #fff;
     max-width: 980px;
     margin: auto;
 }
 
 .about-wrapper {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;
     margin-left: 20px;
 }
 
 .about-info {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;
     margin-top: 0;
     padding: 0;
     list-style: none;
 }
 
 .about-info h3 {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;
     margin: 0;
     padding-top: 2px;
 }
 
 .about-info a {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;
     text-decoration: none;
     color: #262020;
 }
 
 .about-info a:hover {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;
     text-decoration: underline;
     color: #6ac5c7;
 }
 
 .about-margin {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;
     margin: 0 20px;
 }
 
 .about-social-icons {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;
     float: left;
     margin: 5px, 0;
     padding: 0;
 }
 
 .about-social-icons li {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;
     list-style: none;
     display: inline;
 }
@@ -293,14 +308,14 @@ max-width: 250px;
 /* Product Section */
 
 .product {
-    font-family: 'Abel';
-    margin: 50px;
+    font-family: 'Work Sans', sans-serif;;
+    margin: 35px;
 }
 
 /* Footer Elements */
 
 .footer {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;;
     position: absolute;
     right: 0;
     bottom: 0px;
@@ -312,28 +327,28 @@ max-width: 250px;
 }
 
 .social-icons {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;
     display: block;
     float: left;
 }
 
 .social-icons li {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;
     display: inline;
 }
 
 .social-icons a {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;
     color: #201b1b;
 }
 
 .social-icons a:hover {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;
     color: #6ac5c7;
 }
 
 .sticky {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;
     position: fixed;
     width: 100%;
     left: 0;
@@ -343,20 +358,20 @@ max-width: 250px;
 }
 
 .footer-credit {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;
     font-size: 60%;
-    float: right;
+    float: left;
     color: #262020;
 }
 
 .footer-credit a {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;
     color: #262020;
     text-decoration: none;
 }
 
 
 .footer-credit a:hover {
-    font-family: 'Abel';
+    font-family: 'Work Sans', sans-serif;
     color: #262020;
 }
